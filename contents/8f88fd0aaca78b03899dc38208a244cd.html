@@ -141,7 +141,7 @@
             <div class="member">
               <a href="be28c8d04cc627a5683f45d077c85464.html">
                 <img src="../diagrams/be28c8d04cc627a5683f45d077c85464.svg">
-                <div style="text-align: center; margin-top: 1em;">register  SequenceDiagram</div>
+                <div style="text-align: center; margin-top: 1em;">register buyer SequenceDiagram</div>
               </a>
             </div>
           </div>
@@ -175,9 +175,9 @@
     <h3>Fragments</h3>
     <ul class="nav nav-list">
         
-        <li><a href='56653afb920dfd61b8f6201dd4a59034.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>existence</a></li>
+        <li><a href='397f0ab7a5d874f90499d7e658501f77.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>verify inputs</a></li>
         
-        <li><a href='568e128ef470d2aeecb656b68a31a874.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>wrongInfo</a></li>
+        <li><a href='c2e18652d3bcc1369ac7ce601866e5f7.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>existance verification</a></li>
         
     </ul>
 </section>
@@ -190,13 +190,17 @@
     <h3>Participants</h3>
     <ul class="nav nav-list">
         
-        <li><a href='852089ca69feaf94eebd37802f69f347.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>user</a></li>
+        <li><a href='88633b8ff561d0a1e86c902f61efffa0.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>farmer register page</a></li>
         
-        <li><a href='88633b8ff561d0a1e86c902f61efffa0.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>register page</a></li>
-        
-        <li><a href='6e5974b78367c020efa418a714d9d03d.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>database</a></li>
+        <li><a href='6e5974b78367c020efa418a714d9d03d.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>buyer entity database</a></li>
         
         <li><a href='12ce6c281d28c3315e8926d6e618e3ea.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>main page</a></li>
+        
+        <li><a href='e6ebf9328321845bc321c06be59fcf62.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>buyer register page</a></li>
+        
+        <li><a href='13d9a47bdf680caf15f58ca62ba78be8.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>user</a></li>
+        
+        <li><a href='f6d6cfeb3ae92aa973bf61728040b222.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>register Controller</a></li>
         
     </ul>
 </section>
@@ -209,21 +213,37 @@
     <h3>Messages</h3>
     <ul class="nav nav-list">
         
-        <li><a href='876ba5057412f35fec09eaf19e91e8bf.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>register (user→register page)</a></li>
+        <li><a href='3495d023bbc528805d8abce1bd941fdc.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>click signUp button (user→main page)</a></li>
         
-        <li><a href='2321f923b6e9d46a5d246e91e68cd373.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>infoVerification (register page→register page)</a></li>
+        <li><a href='7396d853a5eac22587a3fc3f9cc3f408.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>redirect (main page→farmer register page)</a></li>
         
-        <li><a href='687e52cede6101f0aff9ea2ab2a3689c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>wrong information error (register page→register page)</a></li>
+        <li><a href='7fc944a33810ac60f8adbe901f8687cf.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>click signup as byuer link (user→farmer register page)</a></li>
         
-        <li><a href='02a440d3612ec99bbc5abe6543e72a82.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>existence (register page→database)</a></li>
+        <li><a href='a8490793a0f5f94a82c71f6c01bef732.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>redirect (farmer register page→buyer register page)</a></li>
         
-        <li><a href='a9322a0a0b71fb3d41a9a888a1b1729b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>exist (database→register page)</a></li>
+        <li><a href='97be5dda025336c51f5222ddf8e83cea.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display register form (buyer register page→user)</a></li>
         
-        <li><a href='2e6935785733cd28945035c0d7132d89.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>createUser (register page→database)</a></li>
+        <li><a href='f3780bf6faa22187b0f4f29570f9ea09.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>fill in form and click signUp button (user→buyer register page)</a></li>
         
-        <li><a href='14b211c1202bbb5c8a102bcf2445d1d6.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>redirect (register page→main page)</a></li>
+        <li><a href='5cf59aee1836ea183d0dae6165d3ffd5.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>verification (register Controller→register Controller)</a></li>
         
-        <li><a href='fe02bc027eca7a1f14d785e74ef65681.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>existence eroor (register page→register page)</a></li>
+        <li><a href='4491e7eddfa73ee0e54e93aa68f2e1c3.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Signup (buyer register page→register Controller)</a></li>
+        
+        <li><a href='9908712a40a89e0c26aea94bcd647d81.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validation error (register Controller→buyer register page)</a></li>
+        
+        <li><a href='37b0a6d938223bad6661c87c294b5f46.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display error (buyer register page→user)</a></li>
+        
+        <li><a href='df0013bd89d4c8456d5149a2c27ea801.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>already exist error (register Controller→buyer register page)</a></li>
+        
+        <li><a href='0cdbae72049121b98f1aec86d4b2b5f8.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display error msg (buyer register page→user)</a></li>
+        
+        <li><a href='65a919b2c4de63b8907c08d1499a56a0.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>createBuyer (register Controller→buyer entity database)</a></li>
+        
+        <li><a href='b90b947e51d62540ec5f47e44810f3a1.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>saved (buyer entity database→register Controller)</a></li>
+        
+        <li><a href='01776c3805faf79b3669882ee5133793.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>saved (register Controller→buyer register page)</a></li>
+        
+        <li><a href='791eef9a3f2eab060d8097bf7ab4d05f.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>redirect (buyer register page→main page)</a></li>
         
     </ul>
 </section>
@@ -388,7 +408,7 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='be28c8d04cc627a5683f45d077c85464.html'><span class='node-icon staruml-icon icon-UMLSequenceDiagram'></span>register  SequenceDiagram</a></li>
+        <li><a href='be28c8d04cc627a5683f45d077c85464.html'><span class='node-icon staruml-icon icon-UMLSequenceDiagram'></span>register buyer SequenceDiagram</a></li>
         
     </ul>
 </section>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>database</title>
+    <title>Chat entity</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>database</h1>
+      <h1>Chat entity</h1>
 
       <!-- Type and Stereotype -->
 
@@ -47,7 +47,7 @@
           <span class="label label-info"><a href='d11cb0f2af27a61cbf7758c453c2a87f.html'><span class='node-icon staruml-icon icon-UMLInteraction'></span>massaging</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='1a92416857d5812aac8f9740ffc545b6.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>database</a></span>
+          <span class="label label-info"><a href='1a92416857d5812aac8f9740ffc545b6.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Chat entity</a></span>
         
       </section>
 
@@ -216,7 +216,7 @@
     
     <tr>
         <td>name</td>
-        <td>database</td>
+        <td>Chat entity</td>
     </tr>
     
     
@@ -306,9 +306,13 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='0f6990119604bc3d6ea0f407dc754906.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save to database (messaging interface→database)</a></li>
+        <li><a href='50a21eab81dc686234d550855af6aef3.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save (controller→Chat entity)</a></li>
         
-        <li><a href='3f26ed8bcb093354a1401c24be30709c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save (messaging interface→database)</a></li>
+        <li><a href='c84e921182122711bd1b30f09a588d08.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display msg (Chat entity→farmer messaging interface)</a></li>
+        
+        <li><a href='6351e6be54a44cdf9941f2a6570ea467.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save (controller→Chat entity)</a></li>
+        
+        <li><a href='59c15328b6241a72d9d743e2d1abd9fc.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display msg (Chat entity→buyer messaging interface)</a></li>
         
     </ul>
 </section>

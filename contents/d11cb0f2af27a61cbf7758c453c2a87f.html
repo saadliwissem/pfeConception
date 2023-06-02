@@ -179,13 +179,21 @@
     <h3>Participants</h3>
     <ul class="nav nav-list">
         
-        <li><a href='c579556aecb6b46a05c3258ac572b5d7.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>farmer</a></li>
+        <li><a href='1a92416857d5812aac8f9740ffc545b6.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Chat entity</a></li>
         
-        <li><a href='64099cb15233566ea5a1a7db1f0872b9.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>user</a></li>
+        <li><a href='6e62bff210ded086a6495b9bedf40a38.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>buyer messaging interface</a></li>
         
-        <li><a href='1a92416857d5812aac8f9740ffc545b6.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>database</a></li>
+        <li><a href='f65ef7b0eefb26c9ec5ca5aa6f954a17.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Lifeline1</a></li>
         
-        <li><a href='6e62bff210ded086a6495b9bedf40a38.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>messaging interface</a></li>
+        <li><a href='4a4185b786c499874943352daed0d3bc.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Lifeline2</a></li>
+        
+        <li><a href='ac30f9766384074049103792f7c411f9.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>controller</a></li>
+        
+        <li><a href='d741b6867ea2df7731c797b88d3aa5b9.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>collabs page</a></li>
+        
+        <li><a href='d08fd12d5a8652085f4b1534434123ed.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>main page</a></li>
+        
+        <li><a href='c757b5d8319a180a8ea52be450117940.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>farmer messaging interface</a></li>
         
     </ul>
 </section>
@@ -198,21 +206,31 @@
     <h3>Messages</h3>
     <ul class="nav nav-list">
         
-        <li><a href='9c49ca2c38481762e1c66d1bc9338c94.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>compose msg and send (farmer→messaging interface)</a></li>
+        <li><a href='5199df5fe85b2558215d59990810453c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>click collabs link (Lifeline1→main page)</a></li>
         
-        <li><a href='0f6990119604bc3d6ea0f407dc754906.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save to database (messaging interface→database)</a></li>
+        <li><a href='58a2516ca71332e5febe727ca5dfe224.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>redirect (main page→collabs page)</a></li>
         
-        <li><a href='45ddcec69a8e54965c9a31c14a2770ff.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display msg to user (messaging interface→messaging interface)</a></li>
+        <li><a href='318ba9f692e5056ace4e5c2dca6469aa.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>click on a collab deatails button (Lifeline1→collabs page)</a></li>
         
-        <li><a href='c1916748c464bfaa3cae2f4406b6a221.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>read massage (user→messaging interface)</a></li>
+        <li><a href='16068115cb4cf5b62b1b315514c6007c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>choose a farmer and click send msg button (Lifeline1→collabs page)</a></li>
         
-        <li><a href='f49aac2d903bdbbd70e069319018d9fa.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>compose msg and send (user→messaging interface)</a></li>
+        <li><a href='41b671095e88cd35c70c27aaa98e0a81.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>redirect (collabs page→buyer messaging interface)</a></li>
         
-        <li><a href='3f26ed8bcb093354a1401c24be30709c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save (messaging interface→database)</a></li>
+        <li><a href='be5c6490e71412a73b283dbfa0c86b78.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>compose &amp; send msg (Lifeline1→buyer messaging interface)</a></li>
         
-        <li><a href='5b4244ce08cb26ee22ac307c7806a5a9.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display to farmer (messaging interface→messaging interface)</a></li>
+        <li><a href='a51cb81f4d822e61e60c369384b52819.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>send (buyer messaging interface→controller)</a></li>
         
-        <li><a href='21edad5e4088963988ee001a37abca9f.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>read msg (farmer→messaging interface)</a></li>
+        <li><a href='50a21eab81dc686234d550855af6aef3.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save (controller→Chat entity)</a></li>
+        
+        <li><a href='c84e921182122711bd1b30f09a588d08.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display msg (Chat entity→farmer messaging interface)</a></li>
+        
+        <li><a href='0fb7df12aa747f12de25e893ea6cd9de.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>replay msg (Lifeline2→farmer messaging interface)</a></li>
+        
+        <li><a href='f049afc27433c38a266f79638b46b9a9.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>send (farmer messaging interface→controller)</a></li>
+        
+        <li><a href='6351e6be54a44cdf9941f2a6570ea467.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save (controller→Chat entity)</a></li>
+        
+        <li><a href='59c15328b6241a72d9d743e2d1abd9fc.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display msg (Chat entity→buyer messaging interface)</a></li>
         
     </ul>
 </section>
