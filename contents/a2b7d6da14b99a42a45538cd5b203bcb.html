@@ -171,15 +171,6 @@
       
         
         
-<section class="element-list">
-    <h3>Fragments</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='aabdeabcae453e793239ab9fe5faca0a.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>feedback state</a></li>
-        
-    </ul>
-</section>
-
 
 
         
@@ -188,15 +179,17 @@
     <h3>Participants</h3>
     <ul class="nav nav-list">
         
-        <li><a href='f0ab95928a36e915f119b7374064818b.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>user</a></li>
+        <li><a href='50e0af27686e3a5dc48a15cd8d45911c.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>user: Buyer</a></li>
         
-        <li><a href='81d928da6c04a291ec84930ddc462865.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>feedback page</a></li>
+        <li><a href='240d3a28c206b6be74d5526b9b40c34a.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Feedback interface</a></li>
         
-        <li><a href='0437bd015c07429a78e6b3625e048b21.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>database</a></li>
+        <li><a href='aa7d2e10bca1421655cdf288ae297974.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Controller</a></li>
         
-        <li><a href='bda46329786925898f2cfe4ad7f426f1.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>admin</a></li>
+        <li><a href='7c81d623f5c427bf4e4162c8b703d999.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>user: Admin</a></li>
         
-        <li><a href='3260dd6ecb5644a6e148a51805f12614.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>platform</a></li>
+        <li><a href='b36e090b3590acadcd9e522316fde661.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>database</a></li>
+        
+        <li><a href='7587ad765b69f19560d5409f81158933.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Main Page</a></li>
         
     </ul>
 </section>
@@ -209,25 +202,21 @@
     <h3>Messages</h3>
     <ul class="nav nav-list">
         
-        <li><a href='7455e608161100965a9295a8f18b124b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>send feedback (user→feedback page)</a></li>
+        <li><a href='d907bbcf7a7544628082cd61522d08e2.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>navigate to feedback section (user→Main Page)</a></li>
         
-        <li><a href='a3b932788e7fb359ca302c8b1cb9045a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save (feedback page→database)</a></li>
+        <li><a href='f41525945e83841c2af4498b86d6f228.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>redirect (Main Page→Feedback interface)</a></li>
         
-        <li><a href='2a4182f94fb359dc38380407adc5d21a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>confirmation msg (feedback page→user)</a></li>
+        <li><a href='50fbb004d593c7b5252cbad6ccee137e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>select collaboraion to complain about (user→Feedback interface)</a></li>
         
-        <li><a href='26d9217a67bf1ffe35ce86979b2fefe9.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>new feedback notification (feedback page→admin)</a></li>
+        <li><a href='5cf808674b919b6b95ad4be01bc12fc4.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display form (Feedback interface→user)</a></li>
         
-        <li><a href='d8d03ddc9a9f58b4dbed2c159579ce7a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>review feedback (admin→admin)</a></li>
+        <li><a href='ed9b96de3156c0ace8e9623745b50e12.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>fill in form (user→Feedback interface)</a></li>
         
-        <li><a href='0edfe0e87ddadc1df569f84d906a81e5.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save changes (admin→database)</a></li>
+        <li><a href='a3d23f4225fab44ec7d2b27c4ffdec8e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>feedback (Feedback interface→Controller)</a></li>
         
-        <li><a href='9498ca309bace49788ce1fc0a08cd3fb.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display changes (database→platform)</a></li>
+        <li><a href='78a92ccc954098b328fe3914be30efd4.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save (Controller→database)</a></li>
         
-        <li><a href='2e619497d9bb178e780189c17f2b233b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>get user information (admin→database)</a></li>
-        
-        <li><a href='e817569883544fb1a106e47cf087eb12.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>contact or block user (admin→database)</a></li>
-        
-        <li><a href='18b1b26c2f458f77e30873352bf35a4d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>display changes (database→platform)</a></li>
+        <li><a href='352c9168ef0836ca309203b51a0f551c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>transfer (database→user)</a></li>
         
     </ul>
 </section>
